@@ -1,0 +1,37 @@
+form {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  opacity: 90%;
+}
+
+
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: rgb(255, 37, 84);
+  z-index: 1; /* 타이틀이 이미지 위에 표시되도록 */
+  text-align: center;
+}
+
+#fullScreenImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto%; /*오토로해야해!
+  object-fit: cover; /* 비율을 유지하며 화면 꽉 채우기 */
+  z-index: -1; /* 배경으로 설정하여 다른 요소 위에 표시되지 않도록 */
+}
+
+
+
+
+
