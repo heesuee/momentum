@@ -1,3 +1,4 @@
+
 form {
   position: absolute;
   top: 38%;
@@ -19,6 +20,21 @@ h1 {
   color: rgb(255, 37, 84);
   z-index: 1; /* 타이틀이 이미지 위에 표시되도록 */
   text-align: center;
+}
+
+h2 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  z-index: 1; /* 타이틀이 이미지 위에 표시되도록 */
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
 
 #fullScreenImage {
